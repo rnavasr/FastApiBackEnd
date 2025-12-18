@@ -12,7 +12,7 @@ from schemas import ProductoSchema
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="API eCommerce 2025 UTEQ - Auto Deploy Activo! 🚀")
+app = FastAPI(title="API eCommerce 2025 UTEQ - Auto Deploy Activo! 🚀 Hola Gordo")
 
 # Configurar CORS
 app.add_middleware(
